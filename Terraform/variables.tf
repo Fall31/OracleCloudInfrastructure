@@ -67,7 +67,7 @@ variable "ic_pub_vm_A" {
   default = {
     display_name : "IC_pub_vm-A"
     assign_public_ip : true
-    availability_domain : "AD-1"
+    availability_domain : "YgCn:SA-SANTIAGO-1-AD-1"
     image_ocid : "ocid1.image.oc1.sa-santiago-1.aaaaaaaadzssukd5owr3hsj6ailjd4cpvuneshbvunnzbgf5b42fa3t6fetq"
     shape : {
       name          = "VM.Standard.E3.Flex"
